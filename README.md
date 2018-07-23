@@ -2,7 +2,7 @@
 
 Ascii <=> Hex String
 
-Download from [here](dist/StringConverter.exe)
+Download from [here](dist/StringConverter.exe?raw=true)
 
 ![main page](assets/main-page.png "main page")
 
