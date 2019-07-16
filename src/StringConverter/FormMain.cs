@@ -25,7 +25,7 @@ namespace StringConverter
 
                 if (this.cmbType.SelectedIndex == 1) // hex->ascii
                 {
-                    string[] array = this.tbOrigin.Text.Split(new string[] { "", " " }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] array = this.tbOrigin.Text.Replace("\r", "0D ").Replace("\n", "0A ").Split(new string[] { "", " " }, StringSplitOptions.RemoveEmptyEntries);
 
                     foreach (var item in array)
                     {

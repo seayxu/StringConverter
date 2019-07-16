@@ -88,6 +88,7 @@
             this.tbDestination.Margin = new System.Windows.Forms.Padding(2);
             this.tbDestination.Multiline = true;
             this.tbDestination.Name = "tbDestination";
+            this.tbDestination.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.tbDestination.Size = new System.Drawing.Size(617, 166);
             this.tbDestination.TabIndex = 1;
             // 
@@ -161,6 +162,7 @@
             this.tbOrigin.Margin = new System.Windows.Forms.Padding(2);
             this.tbOrigin.Multiline = true;
             this.tbOrigin.Name = "tbOrigin";
+            this.tbOrigin.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.tbOrigin.Size = new System.Drawing.Size(617, 166);
             this.tbOrigin.TabIndex = 0;
             // 
